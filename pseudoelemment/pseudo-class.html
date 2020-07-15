@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        a.highlight:hover {
+          color: purple;
+        } 
+        p:first-child {
+          color: blue;
+        } 
+        p::first-line {
+          color: #0000ff;
+          font-variant: small-caps;
+        }
+        p::first-letter {
+          color: #ff0000;
+          font-size: xx-large;
+        }
+      </style>
+    </head>
+    <body>
+      <div><a class="highlight" href="css_syntax.asp">CSS Syntax</a></div>
+      <divp><a href="default.asp">CSS Tutorial</a></div>
+      
+      <p>This is some text.</p>
+      <p>This is some text.</p>
+      <p><b>Note:</b> For :first-child to work in IE8 and earlier, a DOCTYPE must be declared.</p>
+      
+      <div> 
+        <p>You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</p>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+      </div>
+    </body>
+  </html>
